@@ -2,8 +2,6 @@
 name = "bitcoin-client"
 version = "0.1.0"
 edition = "2024"
-
-[package.metadata]
 description = "A client library for interacting with Bitcoin. Provides methods for communication with Bitcoin Core."
 authors = ["39george <39george.enjoy@gmail.com>"]
 homepage = "https://github.com/39george/bitcoin-client"

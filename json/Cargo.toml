@@ -2,8 +2,6 @@
 name = "bitcoin-json"
 version = "0.1.0"
 edition = "2024"
-
-[package.metadata]
 description = "Defines the types to deserialize Bitcoin Core responses and serialize parameters for API communication."
 authors = ["39george <39george.enjoy@gmail.com>"]
 homepage = "https://github.com/39george/bitcoin-client"
