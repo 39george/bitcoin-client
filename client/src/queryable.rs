@@ -34,7 +34,7 @@ impl<C: RpcApi + Sync> Queryable<C> for bitcoin::transaction::Transaction {
 }
 
 #[async_trait::async_trait]
-impl<C: RpcApi + Sync> Queryable<C> for Option<bitcoin_rpc_json::GetTxOutResult> {
+impl<C: RpcApi + Sync> Queryable<C> for Option<bitcoin_json::GetTxOutResult> {
     type Id = bitcoin::OutPoint;
 
     async fn query(rpc: &C, id: &Self::Id) -> Result<Self> {
