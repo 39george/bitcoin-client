@@ -7,7 +7,7 @@ authors = ["39george <39george.enjoy@gmail.com>"]
 homepage = "https://github.com/39george/bitcoin-client"
 repository = "https://github.com/39george/bitcoin-client"
 documentation = "https://docs.rs/bitcoin-client"
-readme = "README.md"
+readme = "../README.md"
 license = "MIT"
 
 [dependencies]
