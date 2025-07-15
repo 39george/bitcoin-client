@@ -1,5 +1,5 @@
 [package]
-name = "bitcoin-client"
+name = "bitcoin-async-client"
 version = "0.1.0"
 edition = "2024"
 description = "A client library for interacting with Bitcoin. Provides methods for communication with Bitcoin Core."
